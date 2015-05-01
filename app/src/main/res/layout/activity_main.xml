@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+   <Button
+       android:id="@+id/btn_network"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="网络请求"/>
+    <Button
+        android:id="@+id/btn_sharedPreference"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="写入SharedPreference"/>
+    <Button
+        android:id="@+id/btn_sqlite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="写入数据库"/>
+</LinearLayout>
